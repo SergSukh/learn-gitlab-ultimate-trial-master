@@ -1,0 +1,252 @@
+/*--css for laguna--*/
+/*overall block*/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  display: none;
+}
+
+html {
+  font-family: 'Muller', Arial, Helvetica, sans-serif;
+  /*background: #E5E5E5;*/
+}
+.container {
+width: 1170px;
+margin-left: auto;
+margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.vertical-border {
+  border: 1px solid black;
+  margin: 0;
+}
+/*header*/
+.header-container-top {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo-header {
+  margin-right: 40px;
+}
+
+.header-tel {
+  margin-right: auto;
+}
+
+.header-second-botton {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  display: inline-flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.header-menu {
+  display: inline-flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-menu-iteams:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-flesh {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  flex-direction: row;
+}
+
+.header-flesh-btn-tur {
+  /*align-items: flex-start;*/
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  min-width: 106px;
+  max-width: 240px;
+  padding: 13px 20px;
+  margin-right: 40px;
+}
+
+.header-flesh-btn-tel {
+  /*align-items: flex-start;*/
+  padding: 13px 20px;
+  margin: auto;
+  min-width: 106px;
+  max-width: 240px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  background-color: rgba(0,0,0,0)
+}
+
+/*main*/
+.header-content {
+/*  margin-left: 40px;*/
+  margin-bottom: 20px;
+}
+
+.special {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /*min-height: 258px;*/
+  flex: 0 0 35%;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: auto;
+}
+
+.main-content-special {
+  flex: 1 1 30%;
+  width: 573px;
+  height: 258px;
+  border-radius: 15px;
+  outline: 1px solid red;
+  margin-bottom: 23px;
+}
+
+.main-content-special:not(:last-child) {
+  margin-right: 23px;
+}
+
+.main-content-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*align-items: flex-start;*/
+  margin: auto;
+
+}
+
+.main-content-srvcblock {
+  flex: 1 1 48%;
+  /*max-block-size: 500px;*/
+  outline: 1px solid red;
+  margin-bottom: 15px;
+}
+
+.main-content-srvcblock:not(:nth-child(2n)) {
+  margin-right: 15px;
+}
+
+.main-content-srvc {
+  margin: 10px;
+  outline: 1px solid blue;
+  /*max-width: 100%;*/
+}
+
+.main-content-advantage {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.main-content-advantage-iteams {
+  flex: 1 1 20%;
+  padding: 10px;
+  margin-bottom: 23px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.main-content-advantage-iteams:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+
+.main-content-accommodation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.main-content-accommodation-iteams {
+  flex: 1 1 30%;
+  /*padding-bottom: 41px;*/
+  margin-bottom: 23px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.main-content-accommodation-iteams:not(:nth-child(3n)) {
+  margin-right: 23px;
+}
+
+.main-content-accommodation-iteams:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.main-content-accomm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 45px;
+  padding-bottom: 21px;
+}
+
+.price-starrange {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  /*margin-left: 45px;*/
+  /*align-items: left;*/
+}
+.main-content-accomm-price {
+  flex: 0 0 80%;
+  display: inline-block;
+  margin: auto;
+}
+
+.hotel-star {
+  flex: 0 0 50%;
+  display: inline-block;
+  margin: auto;
+}
+
+/*.main-content-accomm-rem {
+  margin-left: 45px;
+}
+
+.main-content-accomm-place {
+  margin-left: 45px;
+}*/
+
+.main-accomodation-button {
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  max-width: 300px;
+  min-width: 100px;
+  min-height: 46px;
+  background-color: #FFFFFF;
+  padding: 13px 20px;
+  /*margin-left: 48px;*/
+}
+/*footer*/

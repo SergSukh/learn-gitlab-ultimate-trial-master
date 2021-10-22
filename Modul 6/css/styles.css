@@ -1,0 +1,211 @@
+/*--css for laguna--*/
+/*overall block*/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  display: none;
+}
+
+html {
+  font-family: 'Muller', Arial, Helvetica, sans-serif;
+  /*background: #E5E5E5;*/
+}
+.container {
+width: 1170px;
+margin-left: auto;
+margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+/*header*/
+.header-container {
+display: flex;
+align-items: center;
+}
+
+.logo-header {
+  margin-right: 40px;
+}
+
+.header-tel {
+  margin-right: auto;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-menu-iteams:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-flesh {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-flesh-btn-tur {
+  align-items: flex-start;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  padding: 13px 20px;
+  margin-right: 40px;
+}
+
+.header-flesh-btn-tel {
+  align-items: flex-start;
+  padding: 13px 20px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  background-color: rgba(0,0,0,0)
+}
+
+/*main*/
+.header-content {
+/*  margin-left: 40px;*/
+  margin-bottom: 20px;
+}
+
+.special {
+  display: flex;
+  flex-direction: column;
+  /*height: 100vh;*/
+  max-height: 258px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.main-content-special {
+  flex: 1 1 25%;
+  width: 573px;
+  height: 258px;
+  border-radius: 15px;
+  outline: 1px solid red;
+}
+
+.main-content-special:nth-child(1) {
+  margin-right: 23px;
+  margin-bottom: 23px;
+}
+
+.main-content-special:not(:last-child) {
+  margin-right: 23px;
+  margin-bottom: 23px;
+}
+
+.main-content-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: auto;
+
+}
+
+.main-content-srvcblock {
+  flex: 1 1 40%;
+  max-block-size: 500px;
+  outline: 1px solid red;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.main-content-srvc {
+  margin: 10px;
+  outline: 1px solid blue;
+  max-width: 100%;
+}
+
+.main-content-advantage {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.iteams {
+  flex: 1 1 20%;
+  padding: 10px;
+  margin-right: 23px;
+  margin-bottom: 23px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.main-content-accommodation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.main-content-accommodation-iteams {
+  flex: 1 1 30%;
+  padding-bottom: 41px;
+  margin-right: 23px;
+  margin-bottom: 23px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.price-starrange {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  margin-left: 45px;
+  /*align-items: left;*/
+}
+.main-content-accomm-price {
+  display: inline-block;
+  /*margin: auto;*/
+}
+
+.hotel-star {
+  display: inline-block;
+  margin: auto;
+}
+
+.main-content-accomm-rem {
+  margin-left: 45px;
+}
+
+.main-content-accomm-place {
+  margin-left: 45px;
+}
+
+.main-accomodation-button {
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  background-color: #FFFFFF;
+  padding: 13px 20px;
+  margin-left: 48px;
+}
+/*footer*/
